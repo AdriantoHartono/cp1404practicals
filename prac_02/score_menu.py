@@ -31,6 +31,7 @@ def main():
     print("Farewell")
 
 def get_valid_score(prompt, low, high):
+    """Getting valid score based on the criteria"""
     "Getting a valid score"
     score = int(input(prompt))
     while score < low or score > high:
@@ -48,11 +49,5 @@ def determine_score(score):
         return "Passable"
     else:
         return "Bad"
-
-def get_score(prompt):
-    """Getting score"""
-    score = int(input(prompt))
-    return score
-
 
 main()

@@ -12,6 +12,7 @@ def main():
     print(f"The random score: {random_score} \n{result}")
 
 def determine_score(prompt):
+    """Determining score based on the criteria"""
     if prompt < 0 or prompt > 100:
         return("Invalid score")
     elif prompt >= 90:
