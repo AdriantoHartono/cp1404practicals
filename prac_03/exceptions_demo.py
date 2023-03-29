@@ -5,8 +5,11 @@
 CP1404/CP5632 - Practical
 Answer the following questions:
 1. When will a ValueError occur?
+> When we enter the wrong value from the value that assigned in an object
 2. When will a ZeroDivisionError occur?
+> When the number is divided by 0
 3. Could you change the code to avoid the possibility of a ZeroDivisionError?
+> Yes, I can put the code to make the user cannot input 0 to run the code
 """
 
 try:
@@ -23,13 +26,3 @@ except ValueError:
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 print("Finished.")
-
-"""
-Questions
-1. When will a ValueError occur?
-> When we enter the wrong value from the value that assigned in an object
-2. When will a ZeroDivisionError occur?
-> When the number is divided by 0 
-3. Could you change the code to avoid the possibility of a ZeroDivisionError?
-> Yes, I can put the code to make the user cannot input 0 to run the code
-"""
