@@ -2,7 +2,7 @@
 # 14347930
 
 """
- CP1404/CP5632 Practical
+CP1404/CP5632 Practical
 State names in a dictionary
 File needs reformatting
 """
@@ -20,4 +20,4 @@ while state_code != "":
         print(state_code, "is", CODE_TO_NAME[state_code])
     else:
         print("Invalid short state")
-    state_code = input("Enter short state: ")
+    state_code = input("Enter short state: ").upper()
