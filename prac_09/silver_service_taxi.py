@@ -8,7 +8,7 @@ class SilverServiceTaxi(Taxi):
     flagfall = 4.50
 
     def __init__(self, name, fuel, faciness):
-        super().__init(name, fuel)
+        super().__init__(name, fuel)
         self.price_per_km *= faciness
 
     def __str__(self):
